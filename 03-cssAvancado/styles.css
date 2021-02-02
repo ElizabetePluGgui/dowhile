@@ -25,5 +25,19 @@ body {
   padding: 20px 0;
 }
 .menu-container {
-  max-width: ;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.menu-container::after,
+.menu-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+a.menu-logo {
+  display: block;
+  float: left;
+}
+.menu-nav {
+  float: left;
 }
