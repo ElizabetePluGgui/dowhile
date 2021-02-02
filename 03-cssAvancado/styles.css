@@ -1,3 +1,12 @@
+:root {
+  --color-background: #252525;
+  --color-text: ;
+  --color-footer: ;
+  --color-dark: ;
+  --color-cafe: ;
+  --color-menu: #2b2727;
+}
+
 body,
 h1,
 h2,
@@ -8,5 +17,13 @@ ul {
   margin: 0px;
 }
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, serif;
+  color: var(--color-background);
+}
+.menu {
+  background: var(--color-menu);
+  padding: 20px 0;
+}
+.menu-container {
+  max-width: ;
 }
